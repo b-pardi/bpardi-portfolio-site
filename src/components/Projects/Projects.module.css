@@ -1,0 +1,63 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative; /* Make sure the container is positioned relative */
+}
+
+h4 {
+  font-weight: 100;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.scrollWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  width: 100%; /* Adjust the width to account for the buttons */
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollButton {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.scrollButton:first-of-type {
+  left: -55px; 
+}
+
+.scrollButton:last-of-type {
+  right: -55px; 
+}
+
+.scrollButton:focus {
+  outline: none;
+}

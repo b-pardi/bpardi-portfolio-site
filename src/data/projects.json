@@ -1,0 +1,74 @@
+[
+    {
+      "title": "**pyQCM-BraTaDio",
+      "imageSrc": "projects/bratadio.png",
+      "description": "Python based data analysis tool to scrub, visualize, analyze, and model thousands of data sets for Quartz Crystal Microbalance with Dissipation experiments via a Tkinter UI.",
+      "skills": ["Data Analysis", "HCI", "Data Visualization", "Biophysics", "Pandas", "Numpy", "Scipy"],
+      "DOI": "https://doi.org/10.21105/joss.06831",
+      "source": "https://github.com/b-pardi/BraTaDio"
+    },
+    {
+      "title": "Neural Network Visualizers",
+      "imageSrc": "projects/visualizer.png",
+      "description": "Developed basic neural networks from scratch using no machine learning libraries, and created interactive plotting tools to visualize the network's learning process.",
+      "skills": ["Machine Learning", "Neural Networks", "Convolution", "Multivariate Calculus", "Data Visualization"],
+      "source": "https://github.com/b-pardi/Network-Visualizers"
+    },
+    {
+      "title": "*Marker Tracker",
+      "imageSrc": "projects/marker_tracker.png",
+      "description": "Computer vision based software tool to analyze various cell mechanics from cell migration timelapses, and to empirically determine the Poisson's ratio through videos of stretching hydrogels.",
+      "skills": ["Computer Vision", "OpenCV", "Pandas", "Numpy", "HCI", "Tkinter"],
+      "source": "https://github.com/b-pardi/Marker-Tracker"
+    },
+    {
+      "title": "LLNL 2023 Data Science Challenge: ECG data classifier and cardioid mapper",
+      "imageSrc": "projects/heart.png",
+      "description": "Tackling multiple cardiology related problems with machine learning. Most notably classifying heart diseases with biased datasets, and predicting activation graphs of 75 points in the myocardium.",
+      "skills": ["Data Science", "Neural Networks", "EDA", "Classification", "Regression", "SMOT", "Network Architecture", "Pytorch", "Tensorflow"],
+      "demo": "https://docs.google.com/presentation/d/1Zt5Yc4g4Qk3kVnCK2Q3f3IJsKBIpaS5_7N9pRoz1OFQ/edit?usp=sharing",
+      "source": "https://github.com/b-pardi/cardiac_challenge_team6"
+    },
+    {
+      "title": "*Student-Centric Team Formation for UC Merced Computer Science Capstone Classes",
+      "imageSrc": "projects/capstone.png",
+      "description": "Algorithm design project to efficiently and effectively assign students to industry projects based on matching skills and preferences, using an LLM to get project skills from a description.",
+      "skills": ["Python", "Algorithm Design", "LLMs", "MongoDB", "Edtech"],
+      "demo": "https://docs.google.com/presentation/d/14qTPkyUhQ_ea2Nz_ws3z2nYoQk89o5j7HoJTV-83CKI/edit?usp=sharing"
+    },
+    {
+      "title": "**Intensity Profile Analyzer",
+      "imageSrc": "projects/ipa.png",
+      "description": "Data analysis tool to extract fiji data and fit Gaussian models to it to detect local minima, which indicate contrast edges.",
+      "skills": ["Pandas", "Matplotlib", "Interactive Data", "Data Visualization"],
+      "DOI": "https://doi.org/10.1021/acsapm.3c03154",
+      "source": "https://github.com/b-pardi/Intensity-Profile_Analyzer"
+    },
+    {
+      "title": "Multi-Model Noise Cancellation Pipeline",
+      "imageSrc": "projects/audio.png",
+      "description": "Performing selective noise cancellation using a pipeline with an audio classifier to identify sounds in the scene, LLM to choose which sounds to cancel, and final source separator to remove unwanted sounds.",
+      "skills": ["LLMs", "Linux Environments", "Audio", "Data Creation", "Classification"]
+    },
+    {
+      "title": "AI Games",
+      "imageSrc": "projects/flappy_bird.png",
+      "description": "AI learns to play flappy bird using the generation algorithm. Also in progress is pong with an AI that gets better as the game progresses.",
+      "skills": ["Machine Learning Theory", "Algorithms", "Interactive Data", "Pygame"],
+      "source": "https://github.com/b-pardi/ai-flappy-bird"
+    },
+    {
+      "title": "Minecraft Auto-Fisher",
+      "imageSrc": "projects/minecraft.png",
+      "description": "OpenCV object detection to automate the process of fishing in Minecraft (I needed mending books). Classic Python programmer example of automating a 20 minute task with 5 hours of coding.",
+      "skills": ["Computer Vision", "OpenCV", "Automation"],
+      "source": "https://github.com/b-pardi/Minecraft-Auto-Fisher"
+    },
+    {
+      "title": "This Website!",
+      "imageSrc": "projects/website.png",
+      "description": "Making this portfolio website served as an opportunity to finally learn web dev tools beyond basic html and CSS, leveraging the power of Javascript, React, and Vite. The website hosting is also done by myself on a Raspberry Pi on a private network",
+      "skills": ["Web Dev", "Html/CSS", "JS/JSX", "React", "Vite"],
+      "source": "/"
+    }
+  ]

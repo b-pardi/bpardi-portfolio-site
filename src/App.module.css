@@ -1,0 +1,38 @@
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-primary); /* Make the scrollbar track transparent */
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--color-secondary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    ::-webkit-scrollbar {
+        width: 4px; /* Initial width of the scrollbar */
+    }
+}

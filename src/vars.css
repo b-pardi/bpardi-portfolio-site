@@ -1,0 +1,9 @@
+:root {
+    --color-text: #fff5f5;
+    --color-primary: #061c39;
+    --color-secondary: #fe4959;
+    --color-dark: #061934;
+    --project-card-width: 500px;
+    
+    --font-poppins: "Poppins";
+}
