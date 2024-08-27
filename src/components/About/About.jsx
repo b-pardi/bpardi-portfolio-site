@@ -16,9 +16,8 @@ export const About = () => {
                 <div className={styles.aboutItemText}>
                   <h3>Education</h3>
                   <p>
-                    Earned a B.S. in Computer Science and Engineering from University of California, Merced in Fall 2023 with a 3.95 GPA while on multiple research teams. I was also an NSF-CREST fellow, a United States Census Bureau fellow, and was 1 of 2 to achieve the Outstanding Student award for Computer Science that semester.
+                    B.S. in Computer Science and Engineering from UC Merced, receiving the Outstanding Student Award Fall 2023, and fellowships from NSF and the US Census Bureau. Currently pursuing an M.S. in CS at UC Davis.
                   </p>
-                  <p>Currently an M.S. student at University of California Davis, furthering my education in Computer Science.</p>
                 </div>
               </li>
               <li className={styles.aboutItem}>

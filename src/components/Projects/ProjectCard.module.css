@@ -67,3 +67,29 @@ h2 {
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+@media (max-width: 800px) {
+  .container {
+    padding: 10px; /* Smaller padding */
+    width: 100%; /* Adjust width to be more fluid */
+    min-width: 300px; /* Adjust minimum width if necessary */
+  }
+
+  .image {
+    margin-bottom: 10px; /* Reduced margin */
+  }
+
+  .title, .description {
+    font-size: 18px; /* Smaller text for title and description */
+  }
+
+  .skill {
+    font-size: 15px; /* Smaller font size for skills */
+    padding: 2px 10px; /* Reduced padding */
+  }
+
+  .link {
+    font-size: 18px; /* Smaller font size for links */
+    padding: 1px 10px; /* Reduced padding */
+  }
+}

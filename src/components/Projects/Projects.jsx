@@ -9,7 +9,7 @@ export const Projects = () => {
   const scrollLeft = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: -515,
+        left: -0.9 * window.innerWidth,
         behavior: "smooth"
       });
     }
@@ -18,7 +18,7 @@ export const Projects = () => {
   const scrollRight = () => {
     if (scrollContainer.current) {
       scrollContainer.current.scrollBy({
-        left: 515,
+        left: 0.9 * window.innerWidth,
         behavior: "smooth"
       });
     }

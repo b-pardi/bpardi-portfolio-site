@@ -1,0 +1,36 @@
+{
+    "particles": {
+        "number": {
+            "value": 60
+        },
+        "color": {
+            "value": "#434343"
+        },
+        "shape": {
+            "type": "circle"
+        },
+        "opacity": {
+            "value": 0.75
+        },
+        "size": {
+            "value": 8
+        },
+        "move": {
+            "enable": "true",
+            "speed": 1
+        }
+    },
+    "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+            "onhover": {
+                "enable": "true",
+                "mode": "repel"
+            },
+            "onclick": {
+                "enable": "true",
+                "mode": "pull"
+            }
+        }
+    }
+}

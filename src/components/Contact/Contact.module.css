@@ -2,13 +2,13 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
+  margin-top: 80px;
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 50px 4%;
   gap: 10px;
 }
 
@@ -21,7 +21,7 @@
 .text p {
   font-size: 40px;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .links {
@@ -53,19 +53,36 @@
   margin-right: 20px;
 }
 
-@media screen and (max-width: 830px) {
+
+@media (max-width: 800px) {
   .container {
-    flex-direction: column;
-    gap: 23px;
+    flex-direction: column; /* Change to column layout */
+    padding: 20px 3%;
+    align-items: flex-start; /* Align content to the start */
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 30px; /* Adjusted size for smaller screens */
+    letter-spacing: 2px; /* Reduced letter-spacing */
   }
 
-  .links {
-    align-items: center;
+  .text p {
+    font-size: 18px; /* Adjusted size for readability */
+    letter-spacing: 1px; /* Reduced letter-spacing */
+  }
+
+  .link {
+    gap: 5px; /* Reduced gap between icon and text */
+  }
+
+  .link img {
+    width: 30px; /* Smaller icon size */
+    height: 30px; /* Consistent icon dimension */
+    margin-right: 5px; /* Reduced margin right */
+  }
+
+  .link a {
+    font-size: 16px; /* Smaller font size */
+    letter-spacing: 1px; /* Tighter letter spacing */
   }
 }

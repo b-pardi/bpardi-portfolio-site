@@ -4,7 +4,7 @@
       "organization": "MECHANO3B[i]OLOGY Lab at UC Merced",
       "startDate": "Jun 2022",
       "endDate": "Jun 2024",
-      "experiences": ["Expedited data analysis and visualization workflows", "Provided intuitive ways for researchers to navigate software"],
+      "experiences": ["Expedited data analysis and visualization workflows.", "Provided intuitive ways for researchers to navigate software."],
       "imageSrc": "history/m3b_comp.png"
     },
     {
@@ -12,7 +12,7 @@
       "organization": "Lawrence Livermore Natl. Laboratory",
       "startDate": "Jun, 2023",
       "endDate": "Jun, 2023",
-      "experiences": ["Classified different heart diseases from 12 lead ECG data", "Designed a model architecture with skip connections to predict activation graphs of 75 different points in the myocardium with an R2 score of 0.96"],
+      "experiences": ["Classified different heart diseases from 12 lead ECG data.", "Designed a model architecture with skip connections to predict activation graphs of 75 different points in the myocardium with an R2 score of 0.96."],
       "imageSrc": "history/llnlLogo.png"
     },
     {
@@ -20,7 +20,7 @@
       "organization": "United States Census Bureau",
       "startDate": "June, 2024",
       "endDate": "Aug, 2024",
-      "experiences": ["Developed a pipeline for classifying benefits from documents using NLP techniques and LLMs.", "Handled sensitive/restricted data without causing a national secutiry incident"],
+      "experiences": ["Developed a pipeline for classifying benefits from documents using NLP techniques and LLMs.", "Handled sensitive/restricted data without causing a national security incident."],
       "imageSrc": "history/census.png"
     },
     {

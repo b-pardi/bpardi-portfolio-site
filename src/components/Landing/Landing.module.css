@@ -44,8 +44,9 @@ html, body {
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
-  margin-right: 24px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  margin-left: 0px;
 }
 
 .contactBtn {
@@ -129,19 +130,38 @@ html, body {
 .line:last-child {
     left: 30px; /* Offset the second line to the right */
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+
+  .line:first-child {
+    left: -16px;
   }
 
   .content {
     align-items: center;
   }
 
+  .title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-top: 30px;
+  }
+
   .description {
     text-align: center;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }

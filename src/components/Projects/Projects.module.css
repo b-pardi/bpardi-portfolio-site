@@ -1,21 +1,22 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 50px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
-  position: relative; /* Make sure the container is positioned relative */
+  margin-left: 5%; /* Reduced from 10% for smaller screens */
+  margin-right: 5%; /* Reduced from 10% for smaller screens */
+  position: relative;
 }
 
 h4 {
   font-weight: 100;
+  font-size: 12px; /* Smaller font size for annotations */
 }
 
 .title {
-  font-size: 35px;
+  font-size: 20px; /* Smaller title for less space */
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 1px; /* Reduced spacing */
   text-transform: uppercase;
 }
 
@@ -26,12 +27,12 @@ h4 {
 }
 
 .projects {
-  margin-top: 37px;
+  margin-top: 10px; /* Reduced margin */
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
-  width: 100%; /* Adjust the width to account for the buttons */
+  gap: 10px; /* Reduced gap */
+  width: 100%;
   overflow-x: scroll;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -41,9 +42,9 @@ h4 {
   background: var(--color-primary);
   color: var(--color-text);
   border: none;
-  font-size: 25px;
+  font-size: 20px; /* Smaller buttons */
   cursor: pointer;
-  padding: 10px;
+  padding: 5px; /* Reduced padding */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -51,13 +52,31 @@ h4 {
 }
 
 .scrollButton:first-of-type {
-  left: -55px; 
+  left: 0; /* Adjusted to not overlap content */
 }
 
 .scrollButton:last-of-type {
-  right: -55px; 
+  right: 0; /* Adjusted to not overlap content */
 }
 
 .scrollButton:focus {
   outline: none;
+}
+
+/* Responsive adjustments for screens under 400px */
+@media (max-width: 800px) {
+  .container {
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .title, h4 {
+    font-size: 14px; /* Smaller text overall */
+  }
+
+  .scrollButton {
+    font-size: 18px; /* Even smaller buttons */
+    padding: 2px; /* Minimized padding */
+  }
 }
