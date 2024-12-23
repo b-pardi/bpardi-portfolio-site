@@ -2,8 +2,8 @@
     {
       "title": "**pyQCM-BraTaDio",
       "imageSrc": "projects/bratadio.png",
-      "description": "Python based data analysis tool to scrub, visualize, analyze, and model thousands of data sets for Quartz Crystal Microbalance with Dissipation experiments via a Tkinter UI.",
-      "skills": ["Data Analysis", "HCI", "Data Visualization", "Biophysics", "Pandas", "Numpy", "Scipy"],
+      "description": "Python based data analysis tool to scrub, visualize, analyze, and model thousands of data sets for Quartz Crystal Microbalance with Dissipation experiments via a Tkinter UI and MatPlotLib interactive plots.",
+      "skills": ["Data Analysis", "HCI", "Data Visualization", "Biophysics", "Pandas", "Numpy", "Matplotlib", "Scipy"],
       "DOI": "https://doi.org/10.21105/joss.06831",
       "source": "https://github.com/b-pardi/BraTaDio"
     },
@@ -11,14 +11,22 @@
       "title": "Neural Network Visualizers",
       "imageSrc": "projects/visualizer.png",
       "description": "Developed basic neural networks from scratch using no machine learning libraries, and created interactive plotting tools to visualize the network's learning process.",
-      "skills": ["Machine Learning", "Neural Networks", "Convolution", "Multivariate Calculus", "Data Visualization"],
-      "source": "https://github.com/b-pardi/Network-Visualizers"
+      "skills": ["Machine Learning Theory", "Neural Networks", "Convolution", "Multivariate Calculus", "Data Visualization", "Numpy"],
+      "source": "https://github.com/b-pardi/Network-Visualizers",
+      "demo": "https://youtu.be/zGUs17-CcHU"
+    },
+    {
+      "title": "Temporal and Spatial Modelling of Hand-Drawn Sketches",
+      "imageSrc": "projects/VAE-diagram.png",
+      "description": "Novel extension of Google's SketchRNN. Designed a Variational Autoencoder trained on hand-drawn doodles from the Quick Draw dataset. Model was designed to capture the spatial and temporal structure representing how humans draw.",
+      "skills": ["Machine Learning", "Generative AI", "LSTM", "Variational Autoencoder", "Sequential Data", "Data Preprocessing"],
+      "source": "https://github.com/b-pardi/QuickDraw-Doodler"
     },
     {
       "title": "*Marker Tracker",
       "imageSrc": "projects/marker_tracker.png",
       "description": "Computer vision based software tool to analyze various cell mechanics from cell migration timelapses, and to empirically determine the Poisson's ratio through videos of stretching hydrogels.",
-      "skills": ["Computer Vision", "OpenCV", "Pandas", "Numpy", "HCI", "Tkinter"],
+      "skills": ["Computer Vision", "OpenCV", "Pandas", "HCI", "Matplotlib", "Tkinter"],
       "source": "https://github.com/b-pardi/Marker-Tracker"
     },
     {
@@ -28,6 +36,14 @@
       "skills": ["Data Science", "Neural Networks", "EDA", "Classification", "Regression", "SMOT", "Network Architecture", "Pytorch", "Tensorflow"],
       "demo": "https://docs.google.com/presentation/d/1Zt5Yc4g4Qk3kVnCK2Q3f3IJsKBIpaS5_7N9pRoz1OFQ/edit?usp=sharing",
       "source": "https://github.com/b-pardi/cardiac_challenge_team6"
+    },
+    {
+      "title": "AI Learns Flappy Bird with Network Visualizations",
+      "imageSrc": "projects/flappy_bird.png",
+      "description": "AI learns to play flappy bird using a custom implemented NEAT (genetic) algorithm with NO ML libraries. Extensive network visualizations LIVE during training process.",
+      "skills": ["Machine Learning Theory", "Algorithms", "Interactive Data", "Pygame", "Numpy"],
+      "source": "https://github.com/b-pardi/ai-flappy-bird",
+      "demo": "https://www.youtube.com/watch?v=GujD4FmJWK0"
     },
     {
       "title": "*Student-Centric Team Formation for UC Merced Computer Science Capstone Classes",
@@ -51,13 +67,6 @@
       "skills": ["LLMs", "Linux Environments", "Audio", "Data Creation", "Classification"]
     },
     {
-      "title": "AI Games",
-      "imageSrc": "projects/flappy_bird.png",
-      "description": "AI learns to play flappy bird using the generation algorithm. Also in progress is pong with an AI that gets better as the game progresses.",
-      "skills": ["Machine Learning Theory", "Algorithms", "Interactive Data", "Pygame"],
-      "source": "https://github.com/b-pardi/ai-flappy-bird"
-    },
-    {
       "title": "Minecraft Auto-Fisher",
       "imageSrc": "projects/minecraft.png",
       "description": "OpenCV object detection to automate the process of fishing in Minecraft (I needed mending books). Classic Python programmer example of automating a 20 minute task with 5 hours of coding.",
@@ -67,8 +76,8 @@
     {
       "title": "This Website!",
       "imageSrc": "projects/website.png",
-      "description": "Making this portfolio website served as an opportunity to finally learn web dev tools beyond basic html and CSS, leveraging the power of Javascript, React, and Vite. The website hosting is also done by myself on a Raspberry Pi on a private network",
-      "skills": ["Web Dev", "Html/CSS", "JS/JSX", "React", "Vite"],
+      "description": "Making this portfolio website served as an opportunity to finally learn web dev tools beyond basic html and CSS, leveraging the power of Javascript, React, and Vite. The website hosting is also done by myself on a Raspberry Pi on a private network.",
+      "skills": ["Web Dev", "Html/CSS", "JS/JSX", "Nginx", "Web Hosting", "React", "Vite"],
       "source": "/"
     }
   ]

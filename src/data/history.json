@@ -2,9 +2,25 @@
     {
       "role": "Computational Tool Developer",
       "organization": "MECHANO3B[i]OLOGY Lab at UC Merced",
+      "startDate": "Oct 2024",
+      "endDate": "Present",
+      "experiences": [
+        "Studying the efficacy of improving performance in track-wise Monte Carlo optical particle physics simulations using Wasserstein Generative Adversarial Networks w/ gradient penalty.",
+        "Applying hyperparameter optimization techniques such as Bayesian optimization with radial basis surrogates, adaptive successive halving, and gradient based subset selection",
+        "Contributing to open source development of GATE v10, a Python-based wrapper for the C++ particle physics simulator Geant4 from Cern labs."
+      ],
+      "imageSrc": "history/roncali-lab.png"
+    },
+    {
+      "role": "Computational Tool Developer",
+      "organization": "MECHANO3B[i]OLOGY Lab at UC Merced",
       "startDate": "Jun 2022",
       "endDate": "Jun 2024",
-      "experiences": ["Expedited data analysis and visualization workflows.", "Provided intuitive ways for researchers to navigate software."],
+      "experiences": [
+        "Created Python tools to expedite data analysis and visualization workflows.",
+        "Provided intuitive ways for researchers to navigate software.",
+        "Long term support and maintenance of tools."
+      ],
       "imageSrc": "history/m3b_comp.png"
     },
     {
@@ -12,7 +28,10 @@
       "organization": "Lawrence Livermore Natl. Laboratory",
       "startDate": "Jun, 2023",
       "endDate": "Jun, 2023",
-      "experiences": ["Classified different heart diseases from 12 lead ECG data.", "Designed a model architecture with skip connections to predict activation graphs of 75 different points in the myocardium with an R2 score of 0.96."],
+      "experiences": [
+        "Classified different heart diseases from 12 lead ECG data.",
+        "Designed a regression model architecture with skip connections to predict activation graphs of 75 different points in the myocardium with an R2 score of 0.96."
+      ],
       "imageSrc": "history/llnlLogo.png"
     },
     {
@@ -20,7 +39,10 @@
       "organization": "United States Census Bureau",
       "startDate": "June, 2024",
       "endDate": "Aug, 2024",
-      "experiences": ["Developed a pipeline for classifying benefits from documents using NLP techniques and LLMs.", "Handled sensitive/restricted data without causing a national security incident."],
+      "experiences": [
+        "Developed a pipeline for classifying benefits from documents using NLP techniques and LLMs.",
+        "Handled sensitive/restricted data without causing a national security incident."
+      ],
       "imageSrc": "history/census.png"
     },
     {
@@ -30,7 +52,7 @@
       "endDate": "May, 2023",
       "experiences": [
         "Assigned tasks for developing/integrating different facets of the program.",
-        "Trained a custom image classifier to detect rodent presence from cameras."
+        "Trained a custom CNN image classifier to detect rodent presence from cameras."
       ],
       "imageSrc": "history/agrecom.png"
     }

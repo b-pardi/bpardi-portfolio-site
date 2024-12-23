@@ -10,13 +10,14 @@
 
 h4 {
   font-weight: 100;
-  font-size: 12px; /* Smaller font size for annotations */
+  font-size: 12px;
 }
 
 .title {
-  font-size: 20px; /* Smaller title for less space */
+  color: var(--color-text);
+  font-size: 35px;
   font-weight: 700;
-  letter-spacing: 1px; /* Reduced spacing */
+  letter-spacing: 1.75px;
   text-transform: uppercase;
 }
 

@@ -16,7 +16,7 @@ export const About = () => {
                 <div className={styles.aboutItemText}>
                   <h3>Education</h3>
                   <p>
-                    B.S. in Computer Science and Engineering from UC Merced, receiving the Outstanding Student Award Fall 2023, and fellowships from NSF and the US Census Bureau. Currently pursuing an M.S. in CS at UC Davis.
+                    B.S. in Computer Science and Engineering from UC Merced, receiving the Outstanding Student Award Fall 2023, and fellowships from NSF and the US Census Bureau. Currently pursuing an M.S. in CS at UC Davis with a Machine Learning emphasis.
                   </p>
                 </div>
               </li>
@@ -43,7 +43,7 @@ export const About = () => {
                 <div className={styles.aboutItemText}>
                   <h3>Domain Expertise</h3>
                   <p>
-                    Experience in several domains, applying my computer science skills to areas such as biophysics, cardiology, surface sciences, cell mechanics, audio, educational technology, and just general software development.
+                    Experience in several domains, applying my computer science skills to areas such as biophysics, particle physics, cardiology, surface sciences, cell mechanics, audio, educational technology, and general software development.
                   </p>
                 </div>
               </li>
