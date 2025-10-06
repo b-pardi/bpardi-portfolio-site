@@ -1,16 +1,27 @@
 [
   {
-    "role": "Machine Learning - Graduate Student Researcher",
-    "organization": "Roncali Lab at UC Davis",
+    "role": "Graduate Student Researcher",
+    "organization": "Roncali Lab, UC Davis",
     "startDate": "Oct 2024",
     "endDate": "Present",
     "experiences": [
-      "Studying the efficacy of improving performance in track-wise Monte Carlo optical particle physics simulations using Wasserstein Generative Adversarial Networks w/ gradient penalty.",
-      "Applying hyperparameter optimization techniques such as Bayesian optimization with radial basis surrogates, adaptive successive halving, and gradient based subset selection.",
-      "Investigating various probability density function estimation methods for univariate and multivariate distributions, including Gaussian/Epanechnikov Kernel Density Estimation, Bayesian Block Histograms, Gaussian Mixtures, Orthogonal Series, Wavelets, and more.",
-      "Contributing to open source development of GATE v10, a Python-based wrapper for the C++ particle physics simulator Geant4 from Cern labs."
+      "Developed novel methods for training GAN models with 75% less data while maintaining near-equivalent performance.",
+      "Implemented advanced statistical methods for evaluating GAN performance on tabular High Energy Physics data.",
+      "Applied Bayesian inference with radial basis functions for hyperparameter optimization to improve model performance.",
+      "Contributing to open source development of GATE v10, a Python-based wrapper for the C++ particle physics simulator Geant4 from CERN."
     ],
     "imageSrc": "history/roncali-lab.png"
+  },
+  {
+    "role": "Machine Learning Researcher",
+    "organization": "FOCAL Lab, UC Davis",
+    "startDate": "Jun 2025",
+    "endDate": "Aug 2025",
+    "experiences": [
+      "Implemented a fully configurable ViT transfer learning pipeline achieving 96% tree species image classification accuracy and a 91% F1 score, improving upon previous results of 75% and 71% respectively.",
+      "Applied gradient-based data reduction methods to reach near-equivalent performance with 25% less data."
+    ],
+    "imageSrc": "history/focal-logo.png"
   },
   {
     "role": "Computational Tool Developer",
@@ -18,42 +29,42 @@
     "startDate": "Jun 2022",
     "endDate": "Jun 2024",
     "experiences": [
-      "Created Python tools to expedite data analysis and visualization workflows.",
-      "Provided intuitive ways for researchers to navigate software.",
-      "Long term support and maintenance of tools."
+      "Developed scripts to process and analyze biophysics data in seconds, replacing manual spreadsheet workflows.",
+      "Employed computer vision tracking algorithms to analyze cell travel and deformation.",
+      "Provided intuitive interfaces and navigation patterns to streamline researcher workflows."
     ],
     "imageSrc": "history/m3b_comp.png"
   },
   {
-    "role": "Data Science Challenge Participant",
-    "organization": "Lawrence Livermore Natl. Laboratory",
-    "startDate": "Jun, 2023",
-    "endDate": "Jun, 2023",
-    "experiences": [
-      "Classified different heart diseases from 12 lead ECG data.",
-      "Designed a regression model architecture with skip connections to predict activation graphs of 75 different points in the myocardium with an R2 score of 0.96."
-    ],
-    "imageSrc": "history/llnlLogo.png"
-  },
-  {
-    "role": "Data Scientist",
+    "role": "Data Science Fellow",
     "organization": "United States Census Bureau",
-    "startDate": "June, 2024",
-    "endDate": "Aug, 2024",
+    "startDate": "Jun 2024",
+    "endDate": "Aug 2024",
     "experiences": [
-      "Developed a pipeline for classifying benefits from documents using NLP techniques and LLMs.",
-      "Handled sensitive/restricted data without causing a national security incident."
+      "Developed a data processing pipeline for classifying benefits from documents using NLP techniques and LLMs.",
+      "Handled sensitive/restricted data in compliance with federal data security requirements."
     ],
     "imageSrc": "history/census.png"
   },
   {
-    "role": "Project Lead/ML Developer",
-    "organization": "Agrecom",
-    "startDate": "January, 2023",
-    "endDate": "May, 2023",
+    "role": "Data Science Challenge Participant",
+    "organization": "Lawrence Livermore National Laboratory",
+    "startDate": "Jul 2023",
+    "endDate": "Jul 2023",
     "experiences": [
-      "Assigned tasks for developing/integrating different facets of the program.",
-      "Trained a custom CNN image classifier to detect rodent presence from cameras."
+      "Classified heart diseases from 12-lead ECG data.",
+      "Designed a U-Net-like model to predict activation graphs of 75 myocardium points with an R² score of 0.96."
+    ],
+    "imageSrc": "history/llnlLogo.png"
+  },
+  {
+    "role": "Project Lead: Automated Rodent Detection Pipeline",
+    "organization": "Agrecom",
+    "startDate": "Jan 2023",
+    "endDate": "May 2023",
+    "experiences": [
+      "Coordinated development and integration tasks across multiple components of the program.",
+      "Trained a custom image classifier to detect rodent presence from cameras with 91% accuracy."
     ],
     "imageSrc": "history/agrecom.png"
   }

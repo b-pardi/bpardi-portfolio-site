@@ -10,7 +10,7 @@ export const getProjectLinkType = (project) => {
     } else if (project.demo) {
         return { type: 'Demo', href: project.demo };
     } else {
-        return { type: 'Demo Soon', href: '#' };
+        return { type: 'More Soon', href: '#' };
     }
 };
 
@@ -19,6 +19,6 @@ export const getProjectSourceLink = (project) => {
     if (project.source) {
         return { type: 'Source', href: project.source };
     } else {
-        return { type: 'Source N/A', href: '#' }; // or any placeholder URL
+        return { type: 'Source N/A', href: '#' };
     }
 };
